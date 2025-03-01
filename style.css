@@ -55,6 +55,11 @@ nav{
     display: none;
 }
 
+.menuicon{
+    color: white;
+    display: none;
+}
+
 .checkbtn{
     display: none;
 }
@@ -97,4 +102,31 @@ span{
 /* footer section ends */
 
 /* media query responsive design starts here */
+@media (max-width: 639px){
+    .links{
+        position: fixed;
+        top: 70px;
+        background-color: blueviolet;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: all .5s;
+        left: -100%;
+    }
+
+    .links a{
+        display: block;
+        margin: 50px 0;
+        line-height: 23px;
+    }
+
+    .checkbtN{
+        display: flex;
+        color: black;
+    }
+
+    .menuicon{
+        display: flex;
+    }
+}
 /* media query responsive design ends here */
